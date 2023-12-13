@@ -3,7 +3,7 @@ function loginUser(){
     email = document.getElementById('loginEmail').value;
     password = document.getElementById('loginPassword').value;
 
-    fetch('http://127.0.0.1:8000/loginMember',{
+    fetch('https://42d3-41-246-139-29.ngrok-free.app/loginMember',{
         method: 'POST',
         body: {
             'email':email,
